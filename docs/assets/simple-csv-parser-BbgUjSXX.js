@@ -1,0 +1,4 @@
+(function(){self.onmessage=n=>{let{id:r,text:i,delimiter:a}=n.data;try{let n={id:r,ok:!0,data:t(i,a??e(i))};self.postMessage(n)}catch(e){let t={id:r,ok:!1,error:e.message};self.postMessage(t)}};function e(e){return e.includes(`	`)?`	`:e.includes(`;`)?`;`:`,`}function t(e,t=`,`){let n=[],r=[],i=``,a=!1;for(let o=0;o<e.length;o++){let s=e[o],c=e[o+1];if(s===`"`&&a&&c===`"`){i+=`"`,o++;continue}if(s===`"`&&!a&&i===``){a=!0;continue}if(s===`"`&&a){if(c&&c!==t&&c!==`
+`&&c!==`\r`)throw Error(`Invalid CSV`);a=!1;continue}if(!a&&s===t){r.push(i),i=``;continue}if(!a&&(s===`
+`||s===`\r`)){r.push(i),n.push(r),r=[],i=``,s===`\r`&&c===`
+`&&o++;continue}i+=s}if(a)throw Error(`Unterminated quoted field`);return(i.length||r.length)&&(r.push(i),n.push(r)),n}})();

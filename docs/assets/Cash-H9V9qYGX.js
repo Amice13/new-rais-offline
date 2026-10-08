@@ -1,0 +1,1 @@
+import{k as e}from"./runtime-core.esm-bundler-B8D2lM98.js";import{t}from"./route-block-ChiJXsfH.js";var n=e({__name:`index`,setup(e){return(e,t)=>null}});typeof t==`function`&&t(n);var r=n;export{r as default};

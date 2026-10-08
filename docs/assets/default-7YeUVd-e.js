@@ -1,0 +1,1 @@
+import{D as e,mt as t,qt as n,v as r}from"./runtime-core.esm-bundler-B8D2lM98.js";import{t as i}from"./VApp-CLPYyjD0.js";import{t as a}from"./AppBar-BCX_PFdY.js";import{t as o}from"./View-BghfbBjY.js";var s={__name:`default`,setup(s){return(s,c)=>(t(),r(i,null,{default:n(()=>[e(a),e(o)]),_:1}))}};export{s as default};

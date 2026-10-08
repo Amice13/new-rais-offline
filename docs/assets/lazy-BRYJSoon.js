@@ -1,0 +1,1 @@
+import{A as e}from"./dimensions-DBdy6CNG.js";import{Ht as t,wn as n,xn as r}from"./runtime-core.esm-bundler-B8D2lM98.js";var i=e({eager:Boolean},`lazy`);function a(e,i){let a=r(!1),o=n(()=>a.value||e.eager||i.value);t(i,()=>a.value=!0);function s(){e.eager||(a.value=!1)}return{isBooted:a,hasContent:o,onAfterLeave:s}}export{a as n,i as t};

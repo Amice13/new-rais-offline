@@ -1,0 +1,1 @@
+.import-text{position:relative}.import-text>div{z-index:2;flex-direction:column;justify-content:center;align-items:center;width:100%;height:100%;display:flex;position:absolute}.import-text textarea{z-index:1;background:0 0;border:1px solid #ccc;position:absolute}.drag-over{background:#ddd;border:2px dashed #999}

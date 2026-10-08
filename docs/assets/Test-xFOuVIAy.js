@@ -1,0 +1,1 @@
+import{b as e,mt as t}from"./runtime-core.esm-bundler-B8D2lM98.js";import{t as n}from"./_plugin-vue_export-helper-BDNMzG2s.js";import{t as r}from"./route-block-ChiJXsfH.js";var i={};function a(n,r){return t(),e(`div`)}typeof r==`function`&&r(i);var o=n(i,[[`render`,a]]);export{o as default};
