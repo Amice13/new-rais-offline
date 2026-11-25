@@ -1,0 +1,1 @@
+import{B as e,Mn as t,jn as n}from"./runtime-core.esm-bundler-B8D2lM98.js";import{Q as r,st as i}from"./intersect-BPS4ZQMF.js";function a(a,o=`div`,s){return r()({name:s??t(n(a.replace(/__/g,`-`))),props:{tag:{type:String,default:o},...i()},setup(t,{slots:n}){return()=>e(t.tag,{class:[a,t.class],style:t.style},n.default?.())}})}export{a as t};

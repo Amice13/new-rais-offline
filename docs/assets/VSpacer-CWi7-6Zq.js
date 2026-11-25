@@ -1,1 +1,0 @@
-import{r as e}from"./VAvatar-DeL8oz_k.js";var t=e(`v-spacer`,`div`,`VSpacer`);export{t};
